@@ -1,0 +1,9 @@
+name: 'Run Playwright tests'
+description: 'Run Playwright tests on GitHub Actions or act'
+author: 'Leonardo Dino'
+branding:
+  icon: 'play'
+  color: 'green'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

@@ -1,0 +1,15 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "refresh": "yarn upgrade playwright-github-action",
+    "package": "ncc build src/index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4",
+    "playwright-github-action": "microsoft/playwright-github-action#v1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  }
+}

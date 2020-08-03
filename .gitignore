@@ -1,0 +1,10 @@
+*.log
+coverage
+*.lcov
+.nyc_output
+node_modules/
+*.tgz
+.yarn-integrity
+.env
+.env.test
+.cache
